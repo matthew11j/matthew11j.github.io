@@ -43,21 +43,20 @@ html {
 }
 
 .body-card {
-    padding: 20px;
     background: #fff;
     text-align: left;
-    font-size: 18px;
+    /* font-size: 18px; */
     border-radius: 2px;
     display: flex;
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 90%;
+    width: 95%;
 }
 
 .card-title {
-    margin-top: 0px;
+    padding: 1rem;
 }
 
 .img-class-1 { 
@@ -84,4 +83,29 @@ html {
 .content-wrapper {
     width: 80vw;
     margin: auto;
+}
+
+.inline-link {
+    color: #8064A2;
+}
+
+.experience-grid {
+    height: 250px;
+}
+
+.experience-grid-1 {
+    float: left;
+    width: 30%;
+}
+
+.experience-grid-2 {
+    float: right;
+    width: 70%;
+}
+
+.collapse-chevron {
+    vertical-align: middle !important;
+    padding-right: 0.5em;
+    float: right;
+    font-size: 40px !important;
 }
