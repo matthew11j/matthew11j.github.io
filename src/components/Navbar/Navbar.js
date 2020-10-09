@@ -12,35 +12,30 @@ export default function NavBar() {
         <div className='navbar'>
             <div className='navbar-container container'>
                 <Link to='/' className='navbar-logo'>
-                    Meme
+                    Matthew Jackson
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links'>
-                            Home
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
                         <Link to='/about' className='nav-links'>
-                            About Me
+                            <span>About Me</span>
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/experience' className='nav-links'>
-                            Experience
+                            <span>Experience</span>
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/projects' className='nav-links'>
-                            Projects
+                            <span>Projects</span>
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/sas' className='nav-links'>
-                            Skills & Strengths
+                            <span>Skills & Strengths</span>
                         </Link>
                     </li>
                 </ul>

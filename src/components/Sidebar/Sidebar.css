@@ -1,0 +1,63 @@
+/* 1. #212121
+2. #424242
+3. #616161 */
+
+.sidebar-container {
+    width: 300px;
+    float: left;
+    z-index: 0;
+    height: 100vh;
+    position: fixed;
+    background: #ecebeb;
+    /* box-shadow: 2px 2px 3px rgb(150, 98, 95); */
+}
+
+.sidebar-header {
+    text-align: center;
+    padding-top: 2.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: #212121;
+}
+
+.headshot {
+    width: 150px;
+}
+
+.sidebar-header img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.social-media {
+    text-align: left;
+    font-size: 14px;
+    vertical-align: middle;
+    height: 50vh;
+}
+
+.social-media-li {
+    cursor: pointer;
+    line-height: 45px;
+    transition: transform .2s;
+}
+
+.social-media-img {
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+.social-media-text {
+    margin-left: 5%;
+    vertical-align: middle;
+}
+
+.social-media-li:hover {
+    transform: scale(1.1);
+}
+
+.social-media-li a {
+    text-decoration: none;
+    color: #212121;
+}
