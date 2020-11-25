@@ -24,6 +24,19 @@ html {
     align-items: start;
 }
 
+.about-text-area {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 5px;
+}
+
+.about-img-area {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -70,11 +83,63 @@ html {
     margin: auto;
 }
 
-.body-container {
-    margin-left: 15vw;
-    display: flex;
-    flex-direction: column;
+.img-class-3 { 
+    height: 65px;
 }
+
+.body-container {
+    width: 1200px;
+    float: right;
+}
+
+@media print, screen and (max-width: 960px) {
+    .content-wrapper {
+        width: 90vw !important;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    .body-container {
+        width: auto;
+        float: none;
+    }
+
+    .img-class-1 { 
+        height: inherit;
+        width: inherit;
+    }
+
+    .img-class-3 { 
+        height: 40px;
+    }
+
+    .about-text-area {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 16px;
+    }
+    
+    .about-img-area {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .experience-grid {
+        height: fit-content;
+    }
+
+    .experience-grid-1 {
+        float: none;
+        width: 100% !important;
+    }
+    
+    .experience-grid-2 {
+        float: none;
+        width: 100% !important;
+    }
+}
+
 
 .wrapper {
     background: #ecebeb;
@@ -83,6 +148,7 @@ html {
 .content-wrapper {
     width: 80vw;
     margin: auto;
+    margin-bottom: 16px;
 }
 
 .inline-link {
@@ -108,4 +174,11 @@ html {
     padding-right: 0.5em;
     float: right;
     font-size: 40px !important;
+}
+
+.card-title-2 {
+    font-size: 2.2rem;
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 15px;
 }

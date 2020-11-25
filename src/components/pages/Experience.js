@@ -42,35 +42,35 @@ export default function Experience() {
                     <Typography paragraph>
                         <b>Languages Used</b>: HTML5, JavaScript, CSS3, Java, and SQL.
                     </Typography>
-                        <div className='experience-grid'>
-                            <div className='experience-grid-1'>
-                                <b>Hard Skills</b>: 
-                                <ul>
-                                    <li>Full Stack Development</li>
-                                    <li>Microservices</li>
-                                    <li>Database Management</li>
-                                    <li>Web Application Security</li>
-                                    <li>User interface design</li>
-                                    <li>Creating Mockups/Blueprints</li>
-                                    <li>Git Bash</li>
-                                    <li>Agile SAFe</li>
-                                </ul>
-                            </div>
-                            <div className='experience-grid-2'>
-                                <b>Soft Skills</b>:
-                                <ul>
-                                    <li>Leadership</li>
-                                    <li>Time Management</li>
-                                    <li>Team Work</li>
-                                    <li>Professional Communication</li>
-                                    <li>Problem Solving</li>
-                                    <li>Work Ethic</li>
-                                </ul>
-                            </div>
+                    <div className='experience-grid'>
+                        <div className='experience-grid-1'>
+                            <b>Hard Skills</b>: 
+                            <ul>
+                                <li>Full Stack Development</li>
+                                <li>Microservices</li>
+                                <li>Database Management</li>
+                                <li>Web Application Security</li>
+                                <li>User interface design</li>
+                                <li>Creating Mockups/Blueprints</li>
+                                <li>Git Bash</li>
+                                <li>Agile SAFe</li>
+                            </ul>
                         </div>
-                        <Typography>
-                            <b>Semesters Worked</b>: Spring and Fall '18, Summer '19, Spring - Present '20,
-                        </Typography>
+                        <div className='experience-grid-2'>
+                            <b>Soft Skills</b>:
+                            <ul>
+                                <li>Leadership</li>
+                                <li>Time Management</li>
+                                <li>Team Work</li>
+                                <li>Professional Communication</li>
+                                <li>Problem Solving</li>
+                                <li>Work Ethic</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <Typography>
+                        <b>Semesters Worked</b>: Spring and Fall '18, Summer '19, Spring - Present '20,
+                    </Typography>
                     </CardContent>
                 </Collapse>
             </div>

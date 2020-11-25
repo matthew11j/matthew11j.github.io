@@ -12,7 +12,6 @@ class App extends Component {
   render() {
     return (
       <Router>
-          {/* <div className='wrapper'> */}
             <Navbar />
             <div className='content-wrapper'>
               <Sidebar />
@@ -22,11 +21,10 @@ class App extends Component {
                 <Route exact path ="/about" component={About}/>
                 <Route exact path ="/experience" component={Experience}/>
                 <Route exact path="/projects" component={Project} />
-                <Route exact path="/projsasects" component={Sas} />
+                <Route exact path="/sas" component={Sas} />
               </Switch>
               </div>
             </div>
-          {/* </div> */}
       </Router>
     );
   }

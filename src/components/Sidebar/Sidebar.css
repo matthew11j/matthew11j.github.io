@@ -5,11 +5,17 @@
 .sidebar-container {
     width: 300px;
     float: left;
-    z-index: 0;
-    height: 100vh;
-    position: fixed;
-    background: #ecebeb;
-    /* box-shadow: 2px 2px 3px rgb(150, 98, 95); */
+}
+
+@media print, screen and (max-width: 960px) {
+    .sidebar-container {
+        width: auto;
+        float: none;
+    }
+
+    .social-media-li:hover {
+        transform: none !important;
+    }
 }
 
 .sidebar-header {
@@ -34,7 +40,6 @@
     text-align: left;
     font-size: 14px;
     vertical-align: middle;
-    height: 50vh;
 }
 
 .social-media-li {
