@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './../../static/files/matthewJacksonResume.pdf';
+import pdf from './../../static/files/Matthew_Jackson_Resume.pdf';
 import Image1 from './../../static/images/headshot.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Sidebar.css'
