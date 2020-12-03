@@ -49,13 +49,17 @@
 }
 
 .social-media-img {
+    width: 40px;
     font-size: 32px;
     vertical-align: middle;
+    display: inline-block;
+    text-align: center;
 }
 
 .social-media-text {
     margin-left: 5%;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .social-media-li:hover {

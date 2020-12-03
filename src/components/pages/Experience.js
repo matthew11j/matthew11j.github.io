@@ -31,16 +31,17 @@ export default function Experience() {
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
                     <Typography paragraph>
-                        <b>Position</b>: Full Stack Web Developer Coop 
+                        <b>Position</b>: Full Stack Software Developer Co-op 
                     </Typography>
                     <Typography paragraph>
-                        <b>Job Description</b>: At Siemens PLM I work on an internal Siemens website that helps teams track projects and software releases.
-                            My job is to help add and improve two main functionalities of the application. One functionality is to take large amounts of data and 
-                            display it to the user in an organized and easy-to-read way. The second functionality I help implement is 
-                            to improve the tracking of projects that teams are working on.
+                        <b>Job Description</b>: At Siemens PLM I develop a tool that is used by teams to help provide specialized software solutions to customers. Within this application, users are able to track
+                        feature development, customer deployments, and the status of software releases to customers. My team strives to develop better ways to model business processes for customers to visualize their businesses built on top of BPMN modeling
+                        or Business Process Model and Notation. By creating functionality to help streamline and automate the users business process modeling, this tool can help employee's expedite and provide better solutions
+                        to customers.
                     </Typography>
                     <Typography paragraph>
-                        <b>Languages Used</b>: HTML5, JavaScript, CSS3, Java, and SQL.
+                        <b>Languages Used</b>: JavaScript, HTML/CSS, Java, and SQL.<br />
+                        <b>Technologies Used</b>: Angular Web Framework, Apache Web Server, MySQL
                     </Typography>
                     <div className='experience-grid'>
                         <div className='experience-grid-1'>
@@ -50,8 +51,8 @@ export default function Experience() {
                                 <li>Microservices</li>
                                 <li>Database Management</li>
                                 <li>Web Application Security</li>
-                                <li>User interface design</li>
-                                <li>Creating Mockups/Blueprints</li>
+                                <li>User interface Design</li>
+                                <li>Creating Mockups/Prototypes</li>
                                 <li>Git Bash</li>
                                 <li>Agile SAFe</li>
                             </ul>
@@ -69,7 +70,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <Typography>
-                        <b>Semesters Worked</b>: Spring and Fall '18, Summer '19, Spring - Present '20,
+                        <b>Semesters Worked</b>: Spring and Fall '18, Summer '19, Spring '20 - Present,
                     </Typography>
                     </CardContent>
                 </Collapse>

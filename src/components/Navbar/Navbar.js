@@ -18,7 +18,7 @@ export default function NavBar() {
     return (
         <div className='navbar'>
             <div className='navbar-container container'>
-                <Link to='/eportfolio' className='navbar-logo' onClick={conditionalHandleClick}>
+                <Link to='/' className='navbar-logo' onClick={conditionalHandleClick}>
                 <img src={Image1} className="img-class-3" alt="logo"/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>

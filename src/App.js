@@ -17,7 +17,7 @@ class App extends Component {
               <Sidebar />
               <div className='body-container'>
               <Switch>
-                <Route exact path="/eportfolio" component={About} />
+                <Route exact path="/" component={About} />
                 <Route exact path ="/about" component={About}/>
                 <Route exact path ="/experience" component={Experience}/>
                 <Route exact path="/projects" component={Project} />

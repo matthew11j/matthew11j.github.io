@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './../../static/files/Matthew_Jackson_Resume.pdf';
+import pdf from './../../static/files/Jackson_Resume_Final.pdf';
 import Image1 from './../../static/images/headshot.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Sidebar.css'
@@ -17,19 +17,19 @@ export default function Sidebar() {
                 <div className="social-media">
                     <div className="social-media-li">
                         <a href="https://github.com/matthew11j" target="_blank" rel="noopener noreferrer">
-                            <span className='social-media-img'><FontAwesomeIcon icon={faGithub} /></span>
-                            <span className='social-media-text'>Github</span>
+                            <div className='social-media-img'><FontAwesomeIcon icon={faGithub} /></div>
+                            <div className='social-media-text'>Github</div>
                         </a></div>
                     <div className="social-media-li">
                         <a href="https://www.linkedin.com/in/matthew-jackson-2459a4138" target="_blank" rel="noopener noreferrer">
-                            <span className='social-media-img'><FontAwesomeIcon icon={faLinkedin} /></span>
-                            <span className='social-media-text'>LinkedIn</span>
+                            <div className='social-media-img'><FontAwesomeIcon icon={faLinkedin} /></div>
+                            <div className='social-media-text'>LinkedIn</div>
                         </a>
                     </div>
                     <div className="social-media-li">
                         <a href={pdf} target="_blank" rel="noopener noreferrer">
-                            <span className='social-media-img'><FontAwesomeIcon icon={faFilePdf} /></span>
-                            <span className='social-media-text'>Resume</span>
+                            <div className='social-media-img'><FontAwesomeIcon icon={faFilePdf} /></div>
+                            <div className='social-media-text'>Resume</div>
                         </a>
                     </div>
                 </div>

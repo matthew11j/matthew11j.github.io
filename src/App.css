@@ -20,6 +20,18 @@ html {
   font-size: 100px;
 } */
 
+.spacer-xsm {
+    height: 16px;
+}
+
+.spacer-sm {
+    height: 32px;
+}
+
+.spacer-md {
+    height: 64px;
+}
+
 .about {
     align-items: start;
 }
@@ -87,6 +99,22 @@ html {
     height: 65px;
 }
 
+.img-class-mt-hs {
+    height: 275px;
+    margin-top: 10px;
+}
+
+.img-class-mt-nas {
+    height: 400px;
+    margin-top: 10px;
+}
+
+.tool-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
 .body-container {
     width: 1200px;
     float: right;
@@ -138,6 +166,14 @@ html {
         float: none;
         width: 100% !important;
     }
+
+    .img-class-mt-hs {
+        height: 78px;
+    }
+
+    .img-class-mt-nas {
+        height: 275px;
+    }
 }
 
 
@@ -169,9 +205,13 @@ html {
     width: 70%;
 }
 
+.project-link {
+    margin-top: 1em;
+    text-decoration: none !important;
+}
+
 .collapse-chevron {
     vertical-align: middle !important;
-    padding-right: 0.5em;
     float: right;
     font-size: 40px !important;
 }
